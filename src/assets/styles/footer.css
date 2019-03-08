@@ -1,0 +1,118 @@
+.App-footer {
+    background:#333333;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-centered {
+    width: 77%;
+    height: auto;
+    margin: 10px;
+    padding: 5px;
+    background:#333333;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-bottom: 1px solid white;
+}
+
+.footer-centered-confidential {
+    width: 77%;
+    height: 60px;
+    margin: 10px;
+    padding: 5px;
+    background: #333333;
+    color: white;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: row;
+    max-width: 950px;
+}
+
+.footer-links a {
+    margin-bottom: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    color: #e67300;
+    text-decoration: underline;
+}
+
+.footerLinkCategory {
+    margin: 15px;
+}
+
+.arrow-right {
+    width: 0;
+    height: 0;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 5px solid #e67300;
+    margin-top: 3px;
+}
+
+.footer-link-block-header {
+    display: flex;
+    flex-direction: row;
+    font-size: 13px;
+}
+
+.link-header {
+    font-size: 16px;
+    margin-left: 3px;
+}
+
+.footer-sublinks {
+    margin-left: 12px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+#footer-copyright {
+    color: gray;
+}
+
+.confidential-condition-block {
+    float: right;
+}
+
+.confidential-condition-block a {
+    float: right;
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.confidential-condition-block a:hover {
+    color: #e67300;
+    text-decoration: underline;
+}
+
+.footer-static-block {
+
+}
+.logo-container {
+    width: 240px;
+    height: 60px;
+}
+
+.logo-container img {
+    height: 100%;
+    width: 100%;
+}
+
+#footer-contacts p {
+    margin-bottom: -12px;
+    text-align: end;
+}
