@@ -1,5 +1,5 @@
 import React from 'react';
-import style from '../../assets/styles/social.css';
+import style from '../../assets/styles/social.scss';
 
 const Social = () => (
     <div className="footer-social-icons">

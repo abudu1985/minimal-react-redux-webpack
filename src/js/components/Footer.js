@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import style from '../../assets/styles/footer.css';
+import style from '../../assets/styles/footer.scss';
 import { footerContent } from '../../services/ru_links';
 import Logo from "./Logo";
 import Social from "./Social";
@@ -26,9 +26,9 @@ const FooterLinksBlockDoubled = (props) => {
   const { chunks } = props;
   return (
       <div>
-        <FooterLinksBlockSingle chunk={chunks[0]}/>
-        <br />
-        <FooterLinksBlockSingle chunk={chunks[1]}/>
+          <FooterLinksBlockSingle chunk={chunks[0]}/>
+          <br />
+          {chunks.length === 2 ? <FooterLinksBlockSingle chunk={chunks[1]}/> : ''}
       </div>
   );
 };
@@ -64,7 +64,9 @@ const Footer = () => {
             <p>Факс:(044)452-89-90          </p>
             <p>Email: nrs@sstc.com.ua       </p>
           </div>
-          <Social />
+          <div className="footer-social-block">
+            <Social />
+          </div>
         </div>
       </div>
       <div className="footer-centered-confidential">

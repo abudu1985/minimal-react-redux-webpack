@@ -1,5 +1,5 @@
 .App-footer {
-    background:#333333;
+    background: #333333;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -13,7 +13,7 @@
     height: auto;
     margin: 10px;
     padding: 5px;
-    background:#333333;
+    background: #333333;
     color: white;
     display: flex;
     flex-direction: row;
@@ -34,17 +34,15 @@
     display: flex;
     flex-direction: row;
     max-width: 950px;
-}
-
-.footer-links a {
-    margin-bottom: 10px;
-    color: white;
-    text-decoration: none;
-}
-
-.footer-links a:hover {
-    color: #e67300;
-    text-decoration: underline;
+    a {
+        margin-bottom: 10px;
+        color: white;
+        text-decoration: none;
+        &:hover {
+            color: #e67300;
+            text-decoration: underline;
+        }
+    }
 }
 
 .footerLinkCategory {
@@ -83,36 +81,36 @@
 
 .confidential-condition-block {
     float: right;
+    a {
+        float: right;
+        text-decoration: none;
+        color: white;
+        margin-left: 20px;
+        font-size: 13px;
+        text-transform: uppercase;
+        &:hover {
+            color: #e67300;
+            text-decoration: underline;
+        }
+    }
 }
 
-.confidential-condition-block a {
-    float: right;
-    text-decoration: none;
-    color: white;
-    margin-left: 20px;
-    font-size: 13px;
-    text-transform: uppercase;
-}
+.footer-static-block {}
 
-.confidential-condition-block a:hover {
-    color: #e67300;
-    text-decoration: underline;
-}
-
-.footer-static-block {
-
-}
 .logo-container {
     width: 240px;
     height: 60px;
-}
-
-.logo-container img {
-    height: 100%;
-    width: 100%;
+    img {
+        height: 100%;
+        width: 100%;
+    }
 }
 
 #footer-contacts p {
     margin-bottom: -12px;
     text-align: end;
+}
+
+.footer-social-block {
+    margin-top: 60px;
 }
