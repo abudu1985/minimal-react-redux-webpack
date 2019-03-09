@@ -1,4 +1,4 @@
-export const footerContent = [
+export const footerContentRU = [
   {
     title: { text: 'Новости', url: '' },
   },

@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import style from '../../assets/styles/footer.scss';
-import { footerContent } from '../../services/ru_links';
 import Logo from "./Logo";
 import Social from "./Social";
 
@@ -43,7 +42,8 @@ function chunkArray(myArray, chunkSize) {
   return tempArray;
 }
 
-const Footer = () => {
+const Footer = (props) => {
+  const { footerContent } = props;
   return (
     <div className="App-footer">
       <div className="footer-centered">
