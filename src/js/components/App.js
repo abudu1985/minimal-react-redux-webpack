@@ -4,6 +4,7 @@ import Form from "./Form";
 import Footer from "./Footer";
 import { footerContentUA } from '../../services/ua_links';
 import { footerContentRU } from '../../services/ru_links';
+import Slider from "./Slider";
 
 class App extends React.Component{
   constructor(props) {
@@ -45,6 +46,7 @@ class App extends React.Component{
           </div>
         </div>
         <Footer footerContent={this.state.content}/>
+        <Slider />
       </div>
     );
   }
