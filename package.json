@@ -40,7 +40,7 @@
     "webpack-dev-server": "^3.1.1"
   },
   "dependencies": {
-    "node-sass": "^4.11.0",
+    "node-sass": "^7.0.0",
     "react-router-breadcrumbs-hoc": "^3.1.0",
     "react-router-dom": "^4.4.0",
     "react-simple-breadcrumb": "^1.0.0",
